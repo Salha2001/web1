@@ -1,0 +1,26 @@
+body {
+    font-family: system-ui;
+    background: #ffffff;
+    text-align: flex;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+  .button-container button {
+    padding: 20px 25px;
+    width: 8rem;
+    height: 8rem;
+    background: linear-gradient(#ffffff, #ffffff);
+    border-radius: 10px;
+    border-color: #000000;
+    margin: 3px;
+  }
+  
+  button:active  {
+    background: #000000;
+    transition: all 0.6s ease-out;
+  }
